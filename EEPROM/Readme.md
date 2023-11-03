@@ -6,6 +6,6 @@ Citirea se poate fac o singura data la rularea programului prin introducerea num
 Pentru contorizarea timpului folosesc un **RTC DS1302**  ce trebuie setat initial cu data curenta :
  *myRTC.setDS1302Time(secunda, minut, ora, ziDinSapt, zi, luna, an);*
 <br> *// 20 mai 2021, 7:04:15 *
-<br> In poza se poate observa ca sunt niste date gresite, asta pentru ca am uitat bateria in RTC si s-a descarcat. Voi reveni cu update la poza odata ce imi iau o noua baterie.
+
 ![](/EEPROM/eeprom.png)
 
