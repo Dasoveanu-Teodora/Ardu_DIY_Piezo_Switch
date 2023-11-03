@@ -9,7 +9,7 @@
     
     
 ## ***Introducere***
-Aceasta este un proiect hardware DIY, mai exact un sistem de alarma, ce consta  in aprinderea unui bec in prezenta unui om si memorarea in EEPROM a orei la care se aprinde becul, putand fi interogate aprinderile pana la ultima inregistrata,  in care am folosit placa de dezvoltare Arduino Uno R3, un breadboard, un senzor de prezenta PIR cu raza de maxim 7 m pe 180 grade, un bec de 7V , un releu SRD-05VDC-SL-C pentru controlarea tensiunii becului in functie de activitatea senzorului de prezenta. Pentru a contoriza la ce ora se aprinde becul am folosit un modul DS1302.
+Aceasta este un proiect hardware DIY, mai exact un sistem de alarma, ce consta  in aprinderea unui bec in prezenta unui om si memorarea in EEPROM a orei la care se aprinde becul, putand fi interogate aprinderile pana la ultima inregistrata,  in care am folosit placa de dezvoltare Arduino Uno R3, un breadboard, un senzor de prezenta PIR cu raza de maxim 7 m pe 180 grade, un bec de 7W, un releu SRD-05VDC-SL-C pentru controlarea tensiunii becului in functie de activitatea senzorului de prezenta. Pentru a contoriza la ce ora se aprinde becul am folosit un modul DS1302.
 
 ## ***Biblioteci folosite*** 
 Pentru a inregistra aprinderile becului am folosit biblioteca _EEPROM_, oferita de Arduino. Pentru a salva in memorie data, o transform intr-un timestamp cu ajutorul bibliotecii _UnixTime_, oferita de GyverLibs. Pentru data am folosit biblioteca _virtuabotixRTC_.
